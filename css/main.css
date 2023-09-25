@@ -1,0 +1,331 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url(../fonts/Segoe\ UI\ Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  display: flex;
+  width: 1366px;
+  height: 56px;
+  flex-shrink: 0;
+  background: #cacaca;
+}
+
+.navbar_logo {
+  margin-left: 99px;
+  margin-top: 8px;
+  width: 101.527px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.nav_services {
+  padding-top: 19px;
+  padding-left: 511px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: ?????;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav_about {
+  padding-top: 19px;
+  padding-left: 50.5px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: ?????;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav_contacts {
+  padding-top: 19px;
+  padding-left: 52px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: ?????;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav_buttons {
+  margin-left: 28px;
+  margin-top: 16px;
+  gap: 41px;
+  display: flex;
+}
+
+.nav_login {
+  background: #fff;
+  border-radius: 10%;
+  border-color: #d9d9d9;
+  width: 58px;
+  height: 24px;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav_open {
+  background: #fff;
+  border-radius: 10%;
+  border-color: #d9d9d9;
+  width: 122px;
+  height: 24px;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav_en {
+  background: #fff;
+  border-radius: 10%;
+  border-color: #d9d9d9;
+  width: 55px;
+  height: 24px;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main_part {
+  padding-top: 24px;
+  width: 1366px;
+  height: 984px;
+  background: #f4f8fa;
+}
+
+.main_hero {
+  margin-left: 435px;
+  background: #fff;
+  width: 496px;
+  height: 849px;
+  flex-shrink: 0;
+  display: block;
+  border-radius: 10px;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04),
+    0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+}
+
+.main_logo {
+  padding-top: 40px;
+  padding-left: 197px;
+}
+
+.main_heading {
+  padding-top: 24px;
+  padding-left: 102px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Segoe UI";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ac_page1 {
+  display: flex;
+}
+
+.check_acc {
+  padding-top: 16px;
+  padding-left: 131px;
+  color: #444150;
+  font-family: ?????;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.main_login {
+  padding-top: 16px;
+  padding-left: 14px;
+  color: var(--01-bab-3, #01bab3);
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+}
+
+.full_name {
+  display: flex;
+  padding-top: 56px;
+
+  gap: 16px;
+}
+
+.name_1 {
+  display: block;
+}
+
+.surname_2 {
+  display: block;
+  /* padding-bottom: 8px; */
+}
+
+label {
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+input {
+  display: block;
+  padding-top: 8px;
+  width: 200px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fbfbfb;
+  outline: none;
+  cursor: pointer;
+}
+::placeholder {
+  padding-top: 10px;
+  padding-left: 16px;
+}
+
+.sign_1 {
+  display: flex;
+}
+
+.sign_color {
+  color: var(--01-bab-3, #01bab3);
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.birth_date {
+  margin-top: 24px;
+}
+
+.birth_date input {
+  width: 416px;
+  height: 48px;
+  flex-shrink: 0;
+  outline: none;
+}
+
+.choose_gen {
+  margin-top: 24px;
+
+  color: #444150;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.gender {
+  display: flex;
+  margin-top: 8px;
+
+  font-family: "Segoe UI";
+}
+
+.gender input {
+  width: 200px;
+  height: 48px;
+  flex-shrink: 0;
+  outline: none;
+}
+
+.sign_color1 {
+  padding-top: 24px;
+  color: var(--01-bab-3, #01bab3);
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.skype_section input {
+  width: 416px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-top: 24px;
+  margin-top: 8px;
+  outline: none;
+}
+
+.main_info {
+  margin-left: 40px;
+}
+
+.skypesection {
+  margin-top: 8px;
+}
+
+.continue {
+  width: 416px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--01-bab-3, #01bab3);
+}
+
+.con_text {
+  margin-top: 24px;
+  margin-right: 50px;
+  padding-top: 12px;
+  /* padding-left: 80px; */
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.paragraph {
+  margin-top: 36px;
+  /* margin-left: 525px; */
+  color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+  font-family: ?????;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
